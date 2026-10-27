@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <!-- The app theme. DayNight = automatic light and dark mode. -->
+    <style name="Base.Theme.NoteKeeper" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/notekeeper_orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/notekeeper_orange_light</item>
+        <item name="colorOnPrimaryContainer">@color/notekeeper_orange_dark</item>
+    </style>
+
+    <style name="Theme.NoteKeeper" parent="Base.Theme.NoteKeeper" />
+
+    <!-- Text style for course titles in the lists (was "CourseTitle" in the original) -->
+    <style name="TextAppearance.NoteKeeper.CourseTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

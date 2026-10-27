@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <!-- Any string not listed here falls back to values/strings.xml (English) -->
+    <string name="app_name">NoteKeeper</string>
+    <string name="title_activity_note">Editar nota</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="note_title_hint">Título de la nota</string>
+    <string name="note_text_hint">Texto de la nota</string>
+    <string name="nav_notes">Notas</string>
+    <string name="nav_courses">Cursos</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_settings">Ajustes</string>
+</resources>

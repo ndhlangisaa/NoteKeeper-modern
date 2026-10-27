@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">NoteKeeper</string>
+
+    <!-- Screen titles -->
+    <string name="title_activity_note">Edit Note</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Main screen + navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="fab_new_note">Create new note</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_courses">Courses</string>
+    <string name="nav_communicate">Communicate</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_send">Send</string>
+    <string name="nav_share_message">Share to – %1$s</string>
+    <string name="nav_send_message">Sending is coming soon</string>
+
+    <!-- Main screen options menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_backup_notes">Backup notes</string>
+    <string name="action_upload_notes">Upload notes</string>
+    <string name="backup_started">Backing up notes – watch Logcat</string>
+    <string name="upload_scheduled">Upload scheduled – it runs when you are online</string>
+
+    <!-- Note editor -->
+    <string name="note_title_hint">Note title</string>
+    <string name="note_text_hint">Note text</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_send_mail">Send as email</string>
+    <string name="action_set_reminder">Set reminder</string>
+    <string name="email_body_template">Check out what I learned in the course \"%1$s\"\n%2$s</string>
+    <string name="no_email_app">No email app is installed</string>
+    <string name="module_status_description">Module %1$d</string>
+
+    <!-- Reminders + notifications -->
+    <string name="reminder_set">Reminder set – it will appear in about 10 seconds</string>
+    <string name="reminder_permission_denied">Notifications are off for NoteKeeper. Turn them on in Settings to get reminders.</string>
+    <string name="reminder_channel_name">Note reminders</string>
+    <string name="reminder_channel_description">Reminders to review your notes</string>
+    <string name="reminder_title">Review note</string>
+    <string name="reminder_action_view_all">View all notes</string>
+    <string name="reminder_action_backup">Backup notes</string>
+
+    <!-- Settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">Your Name</string>
+    <string name="pref_title_email_address">Email address</string>
+    <string name="pref_default_email_address">yourname@example.com</string>
+    <string name="pref_title_favorite_social">Favourite social network</string>
+    <string name="pref_default_favorite_social">https://www.linkedin.com</string>
+    <string-array name="pref_entries_favorite_social">
+        <item>LinkedIn</item>
+        <item>GitHub</item>
+        <item>Facebook</item>
+    </string-array>
+    <string-array name="pref_values_favorite_social">
+        <item>https://www.linkedin.com</item>
+        <item>https://github.com</item>
+        <item>https://www.facebook.com</item>
+    </string-array>
+
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_notification_settings">Notification settings</string>
+    <string name="pref_summary_notification_settings">Sound, vibration and more are managed by Android</string>
+
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+</resources>

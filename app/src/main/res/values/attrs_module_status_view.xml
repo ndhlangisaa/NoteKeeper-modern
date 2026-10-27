@@ -1,0 +1,12 @@
+<resources>
+    <!-- Custom XML attributes for ModuleStatusView.
+         Prefixed with "module" so they can't clash with attributes from other libraries. -->
+    <declare-styleable name="ModuleStatusView">
+        <attr name="moduleOutlineColor" format="color" />
+        <attr name="moduleOutlineWidth" format="dimension" />
+        <attr name="moduleShape" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="square" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
